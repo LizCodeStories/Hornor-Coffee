@@ -1,0 +1,273 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 2.5;
+    -webkit-font-smoothing: antialiased;
+    background: #EAE8DD;
+  }
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: flex;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* My code starts */
+
+  /* Header */
+
+
+  .coffee-h1 {
+    text-align: left;
+    background-image: url(B6F1F981-7BDC-4233-AED2-95E1C4A0ACCC.jpg);
+    padding-left: 2%;
+    color: #ffffff;
+    font-family: 'Oleo Script', cursive;
+    display: flex;
+    flex-direction: row;
+  }
+
+  header{
+    background-color: #282120;
+    
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding-bottom: 5%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: #A9D1E4;
+    opacity: 0.6;
+	  text-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+	  transition: .4s;
+  }
+
+  .location {
+    text-align: right;
+    color: #ebeae4;
+    margin-right: 3%;
+    font-size: 1.3em;
+    font-family: 'Oleo Script', cursive;
+  }
+
+  .deliver {
+    text-align: right;
+    padding-right: 10%;
+    background: #A9D1E4;
+    border-top: 1px solid #c6c9c3;
+    border-bottom: 1px solid #c6c9c3;
+    border-radius: 10px;
+    font-family: 'Oleo Script', cursive;
+  }
+
+  /* Main Section */
+
+  .breakfest {
+   text-align: center;
+    display: block;
+    top: 450px;
+    left: 290px;
+    color: #000;
+    background: #e0dac1;
+    font-family: 'Bad Script', cursive;
+    
+  }
+
+.breakfest:hover { 
+  box-shadow: 0 4px 8px 0 rgba(0,0,2,0.2);
+  cursor: pointer;
+  color: #A9D1E4;
+  background: #282120;
+  opacity: 0.6;
+  text-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  transition: .4s;
+  }
+
+  .lunch {
+    text-align: center;
+    display: block;
+    color: #000;
+    top: 450px;
+    right: 320px;
+    width: 94%;
+    background: #e0dac1;
+    font-family: 'Bad Script', cursive;
+  }
+
+.lunch:hover { 
+    cursor: pointer;
+    color: #A9D1E4;
+    background: #282120;
+    opacity: 0.6;
+	  text-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+	  transition: .4s;
+}
+    
+  
+
+  .menu-options {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 1.8em;
+  }
+
+  .morning-serving {
+    text-align: center;
+    background: #e0dac1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Syne', sans-serif;
+  }
+
+  .lunch-serving {
+    text-align: center;
+    background: #e0dac1;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Syne', sans-serif;
+  }
+
+
+  .column {
+      float: left;
+      width: 50%;
+      padding: 50px;
+     
+      overflow: hidden;
+    }
+ 
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      box-sizing: border-box;
+    }
+
+    .column:hover {
+      box-shadow: 0 0px 8px 0 rgba(0,0,0,0.1);
+    }
+
+  
+  
+  /* Create three equal columns that sits next to each other */
+  
+  
+
+  /* Footer */
+
+  footer {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    background-color: #282120;
+  }
+
+  .footer-review {
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    overflow: hidden;
+  }
+
+  .footer-review:hover {
+    cursor: pointer;
+    color: #A9D1E4;
+    
+    opacity: 0.6;
+	  text-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+	  transition: .4s;
+  }
+
+  .contact {
+    text-align: right;
+    padding-right: 10%;
+   position: relative;
+  overflow: hidden;
+   font-family: 'Syne', sans-serif;
+  }
+
+  .contact:hover {
+    cursor: pointer;
+    color: #A9D1E4;
+   
+    opacity: 0.6;
+	  text-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+	  transition: .4s;
+  }
+
+
+   
+    
+  
+
+  .div-footer {
+    
+    
+  }
+
+.breakfest-h1 {   
+    text-align: center;
+    
+  }
+
+  .coffee-menu {
+    text-align: left;
+  }
+
+  .breakfest-menu {
+    text-align: right;
+    
+
+  }
+
+  
