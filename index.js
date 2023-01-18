@@ -1,3 +1,1 @@
-const body = document.querySelector('body');
-
-console.log('body');
+console.log('Hello World');
