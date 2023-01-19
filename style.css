@@ -9,6 +9,7 @@
   */
   * {
     margin: 0;
+    padding: 0;
   }
   /*
     3. Allow percentage-based heights in the application
@@ -24,7 +25,8 @@
   body {
     line-height: 2.5;
     -webkit-font-smoothing: antialiased;
-    background: #EAE8DD;
+    background-color: #EAE8DD;
+    
   }
   /*
     6. Improve media defaults
@@ -239,7 +241,7 @@
 .order-online {
   background-color: #578E87;
   
-  padding: 50px;
+  padding: 10px 30px 2px 30px;
   overflow: hidden;
   height: 330px;
 }
@@ -557,6 +559,8 @@
 /* Order Online Section */
 
 .order-online {
+  
+  overflow: hidden;
   background-color: #578E87;
   padding: auto;
   overflow: hidden;
@@ -564,20 +568,22 @@
 }
 
 .order-logo {
+ 
   text-align: center;
-  
+  overflow: hidden;
   color: #ffffff;
   font-size: 1.9rem;
 }
 
 .order-info {
+
   color: #ffffff;
   font-size: 1.1rem;
   padding: auto;
+  overflow: hidden;
 }
 /* Button */
 .place-order {
-  
  
   text-decoration: none;
   border: none;
@@ -588,7 +594,7 @@
   font-size: 20px;
   padding: 10px;
   width: 190px;
- 
+
   display: block;
   overflow: hidden;
   cursor: pointer;
@@ -597,11 +603,13 @@
 }
 
 .place-order:hover {
+  
   background-color: #000;
   color: #ffffff;
   box-shadow: 0 7px 9px 0 rgba(0,0,2,0.2);
   opacity: 1;
   transition: .8s;
+  overflow: hidden;
 }
 }
 
