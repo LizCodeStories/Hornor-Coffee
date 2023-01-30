@@ -397,21 +397,18 @@
     * {
       margin: 0;
     }
-    
-  
-  @media only screen and (max-resolution: 150dpi) and (max-width: 767px), (orientation: portrait)
-  {
-    .coffee-h1 {
-      background-image: url(B6F1F981-7BDC-4233-AED2-95E1C4A0ACCC.jpg);
-      color: #ffffff;
-      font-family: 'Oleo Script', cursive;
-      display: flex;
-      flex-direction: row;
-    }
   }
-}
 
 @media only screen and (max-resolution: 150dpi) and (max-width: 767px), (orientation: portrait) {
+
+  .coffee-h1 {
+    background-image: url(B6F1F981-7BDC-4233-AED2-95E1C4A0ACCC.jpg);
+    color: #ffffff;
+    font-family: 'Oleo Script', cursive;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+  }
 
   header{
     background-color: #282120;
