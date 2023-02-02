@@ -69,6 +69,7 @@
     flex-direction: row;
   }
 
+
   header{
     background-color: #282120;
   }
@@ -295,6 +296,65 @@
   opacity: 1;
   transition: .8s;
 }
+
+.Win {
+  color: #ffffff;
+  text-shadow: 1px #ebeae4;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+}
+
+.chance-sec {
+  background-color: #B19081;
+  padding: 20vh;
+}
+
+#chance{
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#buttonContainer{
+  width: auto;
+  margin: auto;
+}
+
+#chance-button{
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #000;
+  background-color: #EAE8DD;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  width: 300px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,2,0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#chance-button:hover {
+  background-color: #000;
+  color: #ffffff;
+  box-shadow: 0 7px 9px 0 rgba(0,0,2,0.2);
+  opacity: 80;
+  transition: .9s;
+}
+
+
+
+
+
+
+
   /* Footer */
 
   footer {
@@ -409,6 +469,8 @@
     flex-direction: row;
     font-size: 1.5rem;
   }
+
+  
 
   header{
     background-color: #282120;
@@ -658,6 +720,61 @@
   transition: .8s;
   overflow: hidden;
 }
+
+.Win {
+  color: #ffffff;
+  text-shadow: 1px #ebeae4;
+  font-size: .8rem;
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+}
+
+.chance-sec {
+  background-color: #B19081;
+  padding: 5vh;
+}
+
+#chance{
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#buttonContainer{
+  width: auto;
+  margin: auto;
+}
+
+#chance-button{
+  padding: 10px;
+  font-size: 10px;
+  cursor: pointer;
+  color: #000;
+  background-color: #EAE8DD;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  width: 150px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,2,0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#chance-button:hover {
+  background-color: #000;
+  color: #ffffff;
+  box-shadow: 0 7px 9px 0 rgba(0,0,2,0.2);
+  opacity: 80;
+  transition: .9s;
+}
+
+
+
 }
 
 @media only screen and (max-resolution: 150dpi) and (max-width: 767px), (orientation: portrait) {
