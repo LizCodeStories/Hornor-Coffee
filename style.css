@@ -25,8 +25,8 @@
   body {
     line-height: 2.5;
     -webkit-font-smoothing: antialiased;
-    background-color: #EAE8DD;
-    
+    background-color: #EAE8DD; 
+   
   }
   /*
     6. Improve media defaults
@@ -71,7 +71,7 @@
 
 
   header{
-    background-color: #282120;
+    background-color: #171414;
   }
 
   nav {
@@ -169,7 +169,7 @@
 
   .menu-options {
     text-align: center;
-    font-family: 'Marck Script', cursive;
+    font-family: 'Bad Script', cursive;
     font-size: 1.8em;
   }
 
@@ -307,7 +307,7 @@
 
 .chance-sec {
   background-color: #B19081;
-  padding: 20vh;
+  padding: 10vh;
 }
 
 #chance{
@@ -361,7 +361,7 @@
     position: relative;
     display: block;
     color: #ffffff;
-    background-color: #000;
+    background-color: #171414;
   }
 
   .footer-review {
@@ -473,7 +473,7 @@
   
 
   header{
-    background-color: #282120;
+    background-color: #171414;
   }
 
   nav {
@@ -622,8 +622,8 @@
 .menu-options-mobile {
   visibility: visible;
   text-align: center;
-  font-family: 'Marck Script', cursive;
-  font-size: 1.4em;
+  font-family: 'Bad Script', cursive;
+  font-size: 1.1em;
 }
 
 .menu-options {
@@ -654,7 +654,7 @@
       display: flex;
       flex-direction: column;
       font-family: 'Syne', sans-serif;
-      font-size: 8px;
+      font-size: 9px;
     }
   .time {
     justify-content: left;
@@ -784,7 +784,7 @@
       position: relative;
       display: block;
       color: #ffffff;
-      background-color: #000;
+      background-color: #171414;
       overflow: hidden;
       padding: 8px;
     }

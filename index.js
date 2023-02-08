@@ -1,8 +1,42 @@
-let chances = ["Congratulations! You won free coffee today! Take this screenshot to claim your free drink.",
+let chances = ["Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+"Sorry, you didn't win today but try again tomorrow!",
+  "Congratulations! You won free coffee today! Take this screenshot to claim your free drink.",
   "You claim 10% off your coffee today! Take this screenshot to claim 10% off your drink.",
   "You have claimed 50% off your drink today! Take this screenshot to claim 50% off your drink.",
   "You have claimed 15% off your drink today! Take this screenshot to claim 50% off your drink.",
-  "Sorry, you didn't win today but try again tomorrow!"
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
+  "Sorry, you didn't win today but try again tomorrow!",
 ]
 
 let button = document.getElementById('chance-button');
@@ -23,3 +57,4 @@ button.removeEventListener('click', showChance);
 }
 
 button.addEventListener('click', showChance);
+{once: true}
