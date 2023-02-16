@@ -58,3 +58,5 @@ button.removeEventListener('click', showChance);
 
 button.addEventListener('click', showChance);
 {once: true}
+
+document.querySelector('h3').innerText = 'Welcome! We offer free Delivery (local only) and In-Store Pickup'

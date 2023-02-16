@@ -76,7 +76,10 @@
 
   nav {
     text-align: center;
-   
+  }
+
+  h2 {
+    font-size: 1rem;
   }
 
   a {
@@ -131,6 +134,7 @@
     color: #000;
     background: #e0dac1;
     font-family: 'Bad Script', cursive;
+    font-size: 1.5rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,2,0.2);
   }
 
@@ -148,6 +152,7 @@
     text-align: center;
     display: block;
     color: #000;
+    font-size: 1.5rem;
     top: 450px;
     right: 320px;
     width: 94%;
@@ -180,6 +185,7 @@
   .morning-serving {
     text-align: center;
     background: #e0dac1;
+    font-size: 1.4rem;
     display: flex;
     flex-direction: column;
     font-family: 'Syne', sans-serif;
@@ -190,6 +196,7 @@
     text-align: center;
     background: #e0dac1;
     width: 94%;
+    font-size: 1.4rem;
     display: flex;
     flex-direction: column;
     font-family: 'Syne', sans-serif;
@@ -470,7 +477,10 @@
     font-size: 1.5rem;
   }
 
-  
+  h2 {
+    font-size: .9rem;
+  }
+
 
   header{
     background-color: #171414;
