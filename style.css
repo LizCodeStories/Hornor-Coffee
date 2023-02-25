@@ -69,14 +69,37 @@
     flex-direction: row;
   }
 
+  .honor-logo-img {
+    width: 15%;
+   margin-left: 1%;
+  }
+
+  .div-1 {
+    background-image: url(B6F1F981-7BDC-4233-AED2-95E1C4A0ACCC.jpg);
+    
+  }
 
   header{
-    background-color: #171414;
+    background-color: #272121;
+    text-align: center;
+    height: 28%;
+    position: fixed;
+    z-index: 1;
   }
 
-  nav {
-    text-align: center;
-  }
+ .fruit-img {
+ 
+ }
+
+ .centered {
+  width: 25%;
+  position: sticky;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #ffffff;
+}
 
   h2 {
     font-size: 1rem;
@@ -87,7 +110,16 @@
     text-decoration: none;
     font-size: 1.3em;
     padding-bottom: 5%;
+    text-align: center;
     font-family: 'Bad Script', cursive;
+  }
+
+  .Home-link {
+ padding: 0;
+  }
+
+  .Menu-link {
+  padding: 0%;
   }
 
   a:hover {
@@ -116,6 +148,9 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  .warning {
+    color: rgb(255, 40, 40);
+  }
   .deliver-mobile {
    visibility: hidden;
     text-align: center;
@@ -170,6 +205,9 @@
 	  transition: .4s;
 }
     
+.coffee-menu {
+  font-size: 2rem;
+}
   
 
   .menu-options {
@@ -356,7 +394,9 @@
   transition: .9s;
 }
 
-
+.coffee-section {
+  background-color: #B19081;
+}
 
 
 
@@ -468,28 +508,51 @@
 
 @media only screen and (max-resolution: 150dpi) and (max-width: 767px), (orientation: portrait) {
 
-  .coffee-h1 {
-    background-image: url(B6F1F981-7BDC-4233-AED2-95E1C4A0ACCC.jpg);
-    color: #ffffff;
-    font-family: 'Oleo Script', cursive;
-    display: flex;
-    flex-direction: row;
-    font-size: 1.5rem;
+  .honor-logo-img {
+    width: 35%;
+   margin-left: 1%;
   }
+
+  .div-1 {
+    background-image: url(B6F1F981-7BDC-4233-AED2-95E1C4A0ACCC.jpg);
+    height: auto;
+  }
+
+  header{
+    background-color: #272121;
+    text-align: center;
+    height: auto;
+   position: relative;
+    z-index: 1;
+    font-size: .8rem;
+  }
+
+  .cafe-infomation{
+    font-size: .8rem;
+  }
+
+  nav {
+    height: 20%;
+  }
+
+ .img-of-fruit {
+ z-index: -100;
+ }
+
+ .centered {
+  width: 50%;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #ffffff;
+}
 
   h2 {
     font-size: .9rem;
   }
 
-
-  header{
-    background-color: #171414;
-  }
-
-  nav {
-    text-align: center;
-   
-  }
 
   a {
     color: #ffffff;
@@ -508,11 +571,10 @@
   }
 
   .location {
-    text-align: center;
     color: #ebeae4;
     font-size: 1.1em;
     font-family: 'Oleo Script', cursive;
-    padding-right: 100px;
+    margin-left: 40%;
   }
 
   .deliver-mobile {
@@ -521,7 +583,7 @@
     background: #578E87;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .8rem;
+    font-size: .7rem;
   }
 
   .deliver-mobile:hover {
